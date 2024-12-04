@@ -12,8 +12,8 @@ public class PrintNumbers {
             System.out.println(i);
         }
     }
-    private static int sumofTwoNumbers(int a, int num2){
-        System.out.println("Adding two numbers");
-        return a+num2;
+    private static int sumofTwoNumbers(int num1, int num2){
+        System.out.println("Adding two numbers...");
+        return num1+num2;
     }
 }
