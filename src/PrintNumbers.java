@@ -4,7 +4,7 @@ public class PrintNumbers {
 
 
         printNumbers(8);
-        System.out.println(sumofTwoNumbers(4,6));
+        System.out.println(sumofTwoNumbers(4,6,90));
     }
 
     private static void printNumbers(int num) {
@@ -12,8 +12,8 @@ public class PrintNumbers {
             System.out.println(i);
         }
     }
-    private static int sumofTwoNumbers(int num1, int num2){
-        System.out.println("Adding two numbers...");
-        return num1+num2;
+    private static int sumofTwoNumbers(int num1, int num2, int num3){
+        System.out.println("Adding two numbers");
+        return num1+num2+num3;
     }
 }
